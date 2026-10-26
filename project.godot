@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="3playerMultiplayer"
+run/main_scene="uid://pta0ui3uyaks"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 
