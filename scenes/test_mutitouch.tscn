@@ -9,21 +9,16 @@ script = ExtResource("1_dtu3w")
 [node name="icon_container" type="Node" parent="." unique_id=2134415811]
 
 [node name="Icon" type="Sprite2D" parent="icon_container" unique_id=1694360797]
-position = Vector2(-138, 136)
 texture = ExtResource("2_rkg27")
 
 [node name="Icon2" type="Sprite2D" parent="icon_container" unique_id=1029231222]
-position = Vector2(-223, 244)
 texture = ExtResource("2_rkg27")
 
 [node name="Icon3" type="Sprite2D" parent="icon_container" unique_id=343970870]
-position = Vector2(-167, -179)
 texture = ExtResource("2_rkg27")
 
 [node name="Icon4" type="Sprite2D" parent="icon_container" unique_id=576544149]
-position = Vector2(-198, -69)
 texture = ExtResource("2_rkg27")
 
 [node name="Icon5" type="Sprite2D" parent="icon_container" unique_id=708722226]
-position = Vector2(-248, 24)
 texture = ExtResource("2_rkg27")
