@@ -27,3 +27,16 @@ func _input(event: InputEvent) -> void:
 		if i < icons.size():
 			icons[i].show()
 			icons[i].global_position = event.position
+
+	# 3. Fallback: กรณี Browser ส่งเป็น Mouse Event แทน Touch Event
+	elif event is InputEventMouseButton:
+		if icons.size() > 0:
+			if event.is_pressed():
+				icons[0].show()
+				icons[0].global_position = event.position
+			else:
+				icons[0].hide()
+	elif event is InputEventMouseMotion and (event.button_mask & 1):
+		if icons.size() > 0:
+			icons[0].show()
+			icons[0].global_position = event.position
